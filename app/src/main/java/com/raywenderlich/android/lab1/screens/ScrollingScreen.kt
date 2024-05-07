@@ -18,6 +18,8 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Column
 import com.raywenderlich.android.lab1.R
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.Row
 
 @Composable
 fun ScrollingScreen(){
@@ -30,7 +32,7 @@ fun ScrollingScreen(){
 
 @Composable
 fun  MyScrollingScreen(modifier: Modifier = Modifier){
-    Column(modifier = modifier.verticalScroll(rememberScrollState())) {
+    Row(modifier = modifier.horizontalScroll(rememberScrollState())) {
         BookImage(R.drawable.advanced_architecture_android, R.string.advance)
         BookImage(R.drawable.kotlin_aprentice, R.string.kot)
         BookImage(R.drawable.kotlin_coroutines, R.string.corutine )
