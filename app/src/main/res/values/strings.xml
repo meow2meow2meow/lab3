@@ -30,4 +30,6 @@
     <string name="advance">Усовершенствованная архитекртура Android</string>
     <string name="kot">Изучение Kotlin</string>
     <string name="corutine">Корутины в Kotlin</string>
+    <string name="cover">Обложки книг</string>
+    <string name="list">Список</string>
 </resources>
