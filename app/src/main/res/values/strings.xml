@@ -20,10 +20,14 @@
     <string name="box_container">контейнер Box</string>
     <string name="surface_container">контейнер Surface</string>
     <string name="scaffold_container">контейнер Scaffold</string>
+    <string name="scrolling_screen">прокрутка</string>
     <string name="menu">MENU</string>
     <string name="MyComposeApp">MyComposeApp</string>
     <string name="android">Android</string >
     <string name="kotlin">Kotlin</string>
     <string name="swift">Swift</string>
     <string name="ios">IOS</string>
+    <string name="advance">Усовершенствованная архитекртура Android</string>
+    <string name="kot">Изучение Kotlin</string>
+    <string name="corutine">Корутины в Kotlin</string>
 </resources>
